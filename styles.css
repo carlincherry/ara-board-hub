@@ -191,7 +191,8 @@ h2 {
 }
 
 .hero-summary {
-  max-width: 920px;
+  max-width: 1160px;
+  width: 100%;
   margin: 10px 0 0;
   color: rgba(255, 255, 255, 0.8);
   font-size: clamp(0.98rem, 1.5vw, 1.12rem);
