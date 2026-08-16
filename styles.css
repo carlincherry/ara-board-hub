@@ -201,7 +201,8 @@ h2 {
 
 .access-note {
   display: flex;
-  max-width: 1160px;
+  width: fit-content;
+  max-width: 100%;
   margin-top: 14px;
   padding: 10px 14px;
   align-items: flex-start;
