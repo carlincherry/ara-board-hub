@@ -35,8 +35,9 @@ Typography uses Cormorant Garamond and Lato, the free web alternatives specified
 by the [official Rice typography guide](https://brand.rice.edu/typography).
 Font files are bundled locally under the SIL Open Font License; license texts
 are in `assets/fonts/`. No official Rice logo, photography, illustrative
-artwork, remote font dependency, icon library, or third-party artwork is
-included.
+artwork, or remote font dependency is included. The monochrome Google Drive
+glyph uses the [Simple Icons Google Drive path](https://simpleicons.org/?q=google+drive)
+as a destination affordance.
 
 ## Repository
 
