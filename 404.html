@@ -6,13 +6,15 @@
     <title>Page not found | ARA Board Resource Hub</title>
     <meta name="robots" content="noindex">
     <meta name="theme-color" content="#00205b">
-    <link rel="icon" href="/ara-board-hub/owl-mark.svg" type="image/svg+xml">
+    <link rel="icon" href="/ara-board-hub/favicon.svg" type="image/svg+xml">
     <style>
       :root { color-scheme: light; font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
       * { box-sizing: border-box; }
       body { display: grid; min-height: 100vh; margin: 0; padding: 24px; color: #fff; background: radial-gradient(circle at 75% 25%, #0a3973, transparent 35%), #00153d; place-items: center; }
       main { width: min(680px, 100%); text-align: center; }
-      img { width: 128px; margin: 0 auto 28px; }
+      .page-mark { position: relative; width: 106px; height: 106px; margin: 0 auto 30px; border: 1px solid rgba(255,255,255,.35); border-radius: 50%; }
+      .page-mark::before { position: absolute; inset: 25px; border: 7px solid #f3dfc4; border-bottom: 0; border-radius: 50px 50px 0 0; content: ""; }
+      .page-mark::after { position: absolute; top: 10px; right: 3px; width: 18px; height: 18px; background: #c67b2b; content: ""; }
       p:first-of-type { margin: 0 0 12px; color: #e6ae70; font-size: .75rem; font-weight: 800; letter-spacing: .18em; text-transform: uppercase; }
       h1 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(3rem, 10vw, 6rem); font-weight: 500; letter-spacing: -.04em; }
       p { color: rgba(255,255,255,.72); font-size: 1.05rem; }
@@ -23,9 +25,9 @@
   </head>
   <body>
     <main>
-      <img src="/ara-board-hub/owl-mark.svg" alt="Heraldic owl looking for the missing page">
+      <div class="page-mark" aria-hidden="true"></div>
       <p>Error 404</p>
-      <h1>This link flew away.</h1>
+      <h1>This page is unavailable.</h1>
       <p>The page could not be found. Return to the hub to open a board resource.</p>
       <a href="/ara-board-hub/">Return to the resource hub</a>
     </main>
