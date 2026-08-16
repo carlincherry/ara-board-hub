@@ -10,13 +10,24 @@
   </defs>
   <rect width="1200" height="630" fill="url(#bg)"/>
   <rect width="1200" height="630" fill="url(#grid)"/>
-  <path d="M794 88h286v222c0 112-57 181-143 218-86-37-143-106-143-218Z" fill="#00153d" fill-opacity=".55" stroke="#fff" stroke-opacity=".55" stroke-width="4"/>
-  <circle cx="890" cy="230" r="35" fill="none" stroke="#fff" stroke-width="7"/>
-  <circle cx="984" cy="230" r="35" fill="none" stroke="#fff" stroke-width="7"/>
-  <circle cx="890" cy="230" r="12" fill="#fff"/>
-  <circle cx="984" cy="230" r="12" fill="#fff"/>
-  <path d="m920 249 17-24 17 24-17 18Z" fill="#e6ae70"/>
-  <path d="M842 406V306h190v100M875 406v-64h124v64M916 406v-31h42v31M820 406h234" fill="none" stroke="#fff" stroke-opacity=".68" stroke-linecap="round" stroke-width="6"/>
+  <g transform="translate(800 92) scale(1.15)">
+    <circle cx="120" cy="120" r="116" fill="#f3dfc4"/>
+    <path d="M48 91 38 47l44 24c11-8 24-12 38-12s27 4 38 12l44-24-10 44c8 14 12 30 12 48 0 49-37 83-84 83s-84-34-84-83c0-18 4-34 12-48Z" fill="#00205b"/>
+    <path d="M55 76 47 56l28 16c-8 7-14 15-19 24Z" fill="#6d91bd"/>
+    <path d="m185 72 28-16-8 40c-5-9-11-17-20-24Z" fill="#6d91bd"/>
+    <ellipse cx="86" cy="116" rx="40" ry="42" fill="#fff"/>
+    <ellipse cx="154" cy="116" rx="40" ry="42" fill="#fff"/>
+    <circle cx="88" cy="117" r="20" fill="#d9e6f4"/>
+    <circle cx="152" cy="117" r="20" fill="#d9e6f4"/>
+    <circle cx="91" cy="119" r="9" fill="#00153d"/>
+    <circle cx="149" cy="119" r="9" fill="#00153d"/>
+    <circle cx="95" cy="115" r="3" fill="#fff"/>
+    <circle cx="153" cy="115" r="3" fill="#fff"/>
+    <path d="m106 143 14-16 14 16-14 13Z" fill="#c67b2b"/>
+    <path d="M74 161c11 21 27 32 46 32s35-11 46-32c-16 8-31 12-46 12s-30-4-46-12Z" fill="#6d91bd"/>
+    <path d="M57 144c0 28 11 48 33 61-4-31-15-51-33-61Zm126 0c0 28-11 48-33 61 4-31 15-51 33-61Z" fill="#0a3973"/>
+    <path d="M96 215h18m12 0h18" fill="none" stroke="#c67b2b" stroke-linecap="round" stroke-width="6"/>
+  </g>
   <text x="96" y="172" fill="#e6ae70" font-family="Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="5">ASSOCIATION OF RICE ALUMNI</text>
   <text x="96" y="276" fill="#fff" font-family="Georgia, serif" font-size="74">ARA Board</text>
   <text x="96" y="363" fill="#f3dfc4" font-family="Georgia, serif" font-size="74" font-style="italic">Resource Hub</text>

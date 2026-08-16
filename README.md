@@ -29,10 +29,10 @@ Open http://localhost:8000/ in a browser.
 ## Design sources
 
 The site uses Rice Blue (`#00205B`) and Rice Gray (`#7C7E7F`) from the
-[official Rice University color guide](https://brand.rice.edu/colors). The owl,
-shield, arch, and line motifs are original SVG/CSS artwork created for this
-project. No official Rice logo, photography, remote fonts, icon libraries, or
-third-party artwork is included.
+[official Rice University color guide](https://brand.rice.edu/colors). The
+friendly abstract owl, arch, and line motifs are original SVG/CSS artwork
+created for this project. No official Rice logo, photography, remote fonts,
+icon libraries, or third-party artwork is included.
 
 ## Repository
 
