@@ -124,7 +124,7 @@ svg {
 }
 
 .brand strong {
-  color: var(--warm);
+  color: var(--white);
   font-family: var(--sans);
   font-size: 0.74rem;
   font-weight: 800;
