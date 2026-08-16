@@ -91,24 +91,10 @@ svg {
   text-decoration: none;
 }
 
-.brand span {
-  display: grid;
-  line-height: 1.1;
-}
-
 .brand strong {
   font-family: var(--serif);
-  font-size: 1.13rem;
-  letter-spacing: 0.015em;
-}
-
-.brand small {
-  margin-top: 4px;
-  color: rgba(255, 255, 255, 0.72);
-  font-size: 0.67rem;
-  font-weight: 700;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
+  font-size: 1.3rem;
+  letter-spacing: 0.02em;
 }
 
 .hero {
@@ -151,10 +137,6 @@ svg {
   text-transform: uppercase;
 }
 
-.hero .eyebrow {
-  color: #e6ae70;
-}
-
 h1,
 h2 {
   margin: 0;
@@ -167,11 +149,6 @@ h1 {
   max-width: 1160px;
   font-size: clamp(2.65rem, 4.1vw, 3.85rem);
   letter-spacing: -0.045em;
-}
-
-h1 em {
-  color: var(--warm-light);
-  font-weight: inherit;
 }
 
 h2 {
@@ -430,7 +407,7 @@ h2 {
 }
 
 .contact {
-  padding-block: 20px 0;
+  padding-block: 90px;
 }
 
 .contact-card {
@@ -615,7 +592,7 @@ h2 {
   }
 
   .contact {
-    padding-block: 20px 0;
+    padding-block: 70px;
   }
 
   .contact-card {

@@ -1,4 +1,4 @@
-# ARA Board Resource Hub
+# ARA Board of Directors Resource Hub
 
 A public, static link hub for Association of Rice Alumni board members. The site
 routes visitors to resources maintained in Google Drive and on Rice University

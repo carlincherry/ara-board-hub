@@ -15,8 +15,8 @@
   <path d="M844 467V326a116 116 0 0 1 232 0v141" fill="none" stroke="#f3dfc4" stroke-width="14"/>
   <path d="M800 467h320" stroke="#fff" stroke-opacity=".7" stroke-width="3"/>
   <rect x="1066" y="116" width="48" height="48" fill="#c67b2b"/>
-  <text x="96" y="172" fill="#e6ae70" font-family="Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="5">ASSOCIATION OF RICE ALUMNI</text>
-  <text x="96" y="276" fill="#fff" font-family="Georgia, serif" font-size="74">ARA Board</text>
-  <text x="96" y="363" fill="#f3dfc4" font-family="Georgia, serif" font-size="74" font-style="italic">Resource Hub</text>
-  <text x="96" y="436" fill="#fff" fill-opacity=".72" font-family="Arial, sans-serif" font-size="28">One starting point for every board resource.</text>
+  <text x="96" y="164" fill="#e6ae70" font-family="Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="5">RICE ALUMNI</text>
+  <text x="96" y="266" fill="#fff" font-family="Georgia, serif" font-size="64">ARA Board of Directors</text>
+  <text x="96" y="348" fill="#f3dfc4" font-family="Georgia, serif" font-size="70">Resource Hub</text>
+  <text x="96" y="426" fill="#fff" fill-opacity=".72" font-family="Arial, sans-serif" font-size="27">Centralized access to board resources maintained elsewhere.</text>
 </svg>
