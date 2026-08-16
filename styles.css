@@ -124,10 +124,12 @@ svg {
 }
 
 .brand strong {
-  font-family: var(--serif);
-  font-size: 1.25rem;
-  font-weight: 600;
-  letter-spacing: 0.02em;
+  color: var(--warm);
+  font-family: var(--sans);
+  font-size: 0.74rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
 }
 
 .hero {
@@ -159,6 +161,11 @@ svg {
   padding-block: 82px 22px;
   align-items: center;
   grid-template-columns: minmax(0, 1fr);
+}
+
+.hero-copy,
+.card-content {
+  min-width: 0;
 }
 
 .eyebrow {
@@ -272,8 +279,8 @@ h2 {
 .resource-card {
   position: relative;
   display: grid;
-  min-height: 238px;
-  padding: 36px;
+  min-height: 188px;
+  padding: 28px;
   overflow: hidden;
   color: var(--ink);
   background: var(--white);
@@ -281,8 +288,8 @@ h2 {
   border-radius: 14px;
   box-shadow: 0 4px 0 rgba(0, 32, 91, 0.04);
   text-decoration: none;
-  grid-template-columns: auto 1fr auto;
-  gap: 22px;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: 18px;
   transition:
     border-color 220ms ease,
     box-shadow 220ms ease,
@@ -322,19 +329,30 @@ h2 {
   line-height: 1;
 }
 
-.drive-icon {
+.resource-icon {
   display: grid;
-  width: 48px;
-  height: 48px;
-  margin-top: 4px;
+  width: 44px;
+  height: 44px;
+  margin-top: 2px;
   background: var(--rice-blue-light);
   border-radius: 10px;
   place-items: center;
 }
 
-.drive-icon svg {
-  width: 26px;
+.resource-icon svg {
+  width: 24px;
+}
+
+.drive-glyph {
   fill: var(--rice-blue);
+}
+
+.document-glyph {
+  fill: none;
+  stroke: var(--rice-blue);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
 }
 
 .card-content {
@@ -362,7 +380,7 @@ h2 {
 
 .card-content > span:last-child {
   max-width: 360px;
-  margin-top: 16px;
+  margin-top: 10px;
   color: var(--muted);
   font-size: 0.91rem;
 }
@@ -373,7 +391,7 @@ h2 {
   display: grid;
   width: 34px;
   height: 34px;
-  align-self: end;
+  align-self: center;
   background: var(--paper);
   border-radius: 50%;
   place-items: center;
@@ -602,13 +620,13 @@ h2 {
   }
 
   .resource-card {
-    min-height: 250px;
-    padding: 28px 24px;
-    grid-template-columns: 42px 1fr;
+    min-height: 188px;
+    padding: 24px;
+    grid-template-columns: 42px minmax(0, 1fr);
     gap: 16px;
   }
 
-  .drive-icon {
+  .resource-icon {
     width: 42px;
     height: 42px;
   }

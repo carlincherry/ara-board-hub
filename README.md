@@ -18,7 +18,9 @@ Open http://localhost:8000/ in a browser.
 
 ## Maintaining content
 
-- Edit resource names, descriptions, and destinations in `index.html`.
+- Edit resource names, descriptions, and destinations in `index.html`. The
+  current collection includes four Google Drive folders, two official ARA
+  governance pages, and a public IRS Form 990 filing.
 - Keep destination links external with `target="_blank"` and
   `rel="noopener noreferrer"`.
 - Update shared presentation rules in `styles.css`.
