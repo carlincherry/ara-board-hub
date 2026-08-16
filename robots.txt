@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://carlincherry.github.io/ara-board-hub/sitemap.xml
