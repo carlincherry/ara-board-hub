@@ -256,7 +256,8 @@ h2 {
 }
 
 .section-heading p:last-child {
-  max-width: 300px;
+  width: max-content;
+  max-width: min(100%, 420px);
   margin: 0 0 4px;
   color: var(--muted);
   font-size: 0.94rem;
