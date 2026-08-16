@@ -31,8 +31,12 @@ Open http://localhost:8000/ in a browser.
 The site uses Rice Blue (`#00205B`) and Rice Gray (`#7C7E7F`) from the
 [official Rice University color guide](https://brand.rice.edu/colors). The
 site's grids, circles, arches, and line motifs are original SVG/CSS geometry.
-No official Rice logo, photography, illustrative artwork, remote fonts, icon
-libraries, or third-party artwork is included.
+Typography uses Cormorant Garamond and Lato, the free web alternatives specified
+by the [official Rice typography guide](https://brand.rice.edu/typography).
+Font files are bundled locally under the SIL Open Font License; license texts
+are in `assets/fonts/`. No official Rice logo, photography, illustrative
+artwork, remote font dependency, icon library, or third-party artwork is
+included.
 
 ## Repository
 
