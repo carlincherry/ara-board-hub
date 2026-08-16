@@ -36,8 +36,9 @@ site's grids, circles, arches, and line motifs are original SVG/CSS geometry.
 Typography uses Cormorant Garamond and Lato, the free web alternatives specified
 by the [official Rice typography guide](https://brand.rice.edu/typography).
 Font files are bundled locally under the SIL Open Font License; license texts
-are in `assets/fonts/`. The Rice "R" favicon was supplied by the site owner.
-No photography, illustrative artwork, or remote font dependency is included.
+are in `assets/fonts/`. The favicon uses a white Cormorant Garamond "R" on
+Rice Blue. No photography, illustrative artwork, official logo, or remote font
+dependency is included.
 The monochrome Google Drive glyph uses the
 [Simple Icons Google Drive path](https://simpleicons.org/?q=google+drive) as a
 destination affordance.
